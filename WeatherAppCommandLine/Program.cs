@@ -13,7 +13,7 @@ public class Program
     public static void Main(string[] args)
     {
         IConfiguration config = new ConfigurationBuilder()
-                            .AddJsonFile("E:\\WeatherAppCLI\\WeatherAppCLI\\WeatherAppCommandLine\\appsettings.json")
+                            .AddJsonFile("appsettings.json")
                             .AddEnvironmentVariables()
                             .Build();
         IHost _host=Host.CreateDefaultBuilder().ConfigureServices(
