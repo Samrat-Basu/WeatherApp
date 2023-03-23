@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Net;
 using System.Security.Cryptography.X509Certificates;
@@ -10,7 +11,11 @@ public class Program
 {
     
     public static void Main(string[] args)
-    { 
+    {
+        IConfiguration config = new ConfigurationBuilder()
+                            .AddJsonFile("E:\\WeatherAppCLI\\WeatherAppCLI\\WeatherAppCommandLine\\appsettings.json")
+                            .AddEnvironmentVariables()
+                            .Build();
         IHost _host=Host.CreateDefaultBuilder().ConfigureServices(
             services =>
             {

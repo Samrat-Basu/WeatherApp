@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WoER/tcdS8bqOxvm0PBJ7VpDYpB5S77YabpkSPwxiR+FvT7ieNi+wwLMYwebgDK3iUFSN760xhXD/Lhq1qsOWw==",
+  "dgSpecHash": "Ov5/Y4TMtLUzrJIDcxR1f/kAdMGXLDXLZgR5RpghgoJPSAKaNE7q8CoK6c9UD526P6xJIb5byw6Dq4zrwOBRcg==",
   "success": true,
   "projectFilePath": "E:\\WeatherAppCLI\\WeatherAppCLI\\WeatherAppCommandLine\\WeatherAppCommandLine.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Samrat\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Samrat\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\Samrat\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.3\\microsoft.extensions.configuration.binder.7.0.3.nupkg.sha512",
+    "C:\\Users\\Samrat\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.4\\microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
     "C:\\Users\\Samrat\\.nuget\\packages\\microsoft.extensions.configuration.commandline\\7.0.0\\microsoft.extensions.configuration.commandline.7.0.0.nupkg.sha512",
     "C:\\Users\\Samrat\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\7.0.0\\microsoft.extensions.configuration.environmentvariables.7.0.0.nupkg.sha512",
     "C:\\Users\\Samrat\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",

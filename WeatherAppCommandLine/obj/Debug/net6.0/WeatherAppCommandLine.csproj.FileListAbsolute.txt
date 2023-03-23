@@ -114,3 +114,4 @@ E:\WeatherAppCLI\WeatherAppCLI\WeatherAppCommandLine\obj\Debug\net6.0\refint\Wea
 E:\WeatherAppCLI\WeatherAppCLI\WeatherAppCommandLine\obj\Debug\net6.0\WeatherAppCommandLine.pdb
 E:\WeatherAppCLI\WeatherAppCLI\WeatherAppCommandLine\obj\Debug\net6.0\WeatherAppCommandLine.genruntimeconfig.cache
 E:\WeatherAppCLI\WeatherAppCLI\WeatherAppCommandLine\obj\Debug\net6.0\ref\WeatherAppCommandLine.dll
+E:\WeatherAppCLI\WeatherAppCLI\WeatherAppCommandLine\bin\Debug\net6.0\appsettings.json

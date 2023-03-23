@@ -6,19 +6,27 @@ using System.Threading.Tasks;
 using WeatherAPP.Models.Modals;
 using System.IO;
 using System.Configuration;
+using Microsoft.Extensions.Configuration;
 
 namespace WeatherApp.WeatherDetails
 {
-    public class WeatherDetails:IWeatherDetails
+    public class WeatherDetails : IWeatherDetails
     {
-        string filePath = ConfigurationManager.AppSettings["filePath"];
+        IConfiguration _configuration;
+        public WeatherDetails(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
         public async Task<List<Coordinates>> ReadDataFromCSV()
-        {         
-           List<Coordinates> values =File.ReadAllLines(@"E:\\WeatherAppCLI\\WeatherApp\\WeatherAppCommandLine\\WeatherApp.WeatherDetails\\CityData\\CityData.csv")
-                                             .Skip(1)
-                                             .Select(v => Coordinates.FromCsv(v))
-                                             .ToList();
+        {
             
+            //var filePath= "@\"E:\\\\WeatherAppCLI\\\\WeatherApp\\\\WeatherAppCommandLine\\\\WeatherApp.WeatherDetails\\\\CityData\\\\CityData.csv\"
+            var filePath = _configuration.GetRequiredSection("Settings").Get<Settings>().filePath;
+            List<Coordinates> values = File.ReadAllLines(filePath)
+                                              .Skip(1)
+                                              .Select(v => Coordinates.FromCsv(v))
+                                              .ToList();
+
             return values;
         }
 

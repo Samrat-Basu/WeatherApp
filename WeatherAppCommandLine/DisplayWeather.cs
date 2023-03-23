@@ -21,28 +21,36 @@ namespace WeatherAppCommandLine
         public async void display(string city)
         {
             var latitude = await _weatherDetails.getLatitude(city);
-            var longitude = await _weatherDetails.getLongitude(city);
-
-            var weatherAndAreaDetails= _weatherAppApi.GetWeatherAndAreaDetails(latitude, longitude);
-
-            if ((latitude == 0) && (longitude == 0))
+            try
             {
-                Console.WriteLine("No data found");
-            }
-            else
-            {               
-                Console.WriteLine($"Longitude : {latitude}");
-                Console.WriteLine($"Longitude : {longitude}");
-                Console.WriteLine($"Temperature : {weatherAndAreaDetails.Result.current_weather.temperature}");
-                Console.WriteLine($"Wind speed : {weatherAndAreaDetails.Result.current_weather.windspeed}");
-                Console.WriteLine($"Wind Direction : {weatherAndAreaDetails.Result.current_weather.winddirection}");
-                Console.WriteLine($"Weather Code : {weatherAndAreaDetails.Result.current_weather.weathercode}");
-                Console.WriteLine($"Time : {weatherAndAreaDetails.Result.current_weather.time}");
-                //Console.WriteLine($"Temperature : {weatherAndAreaDetails.Result.current_weather.temperature}");
-            }
+                var longitude = await _weatherDetails.getLongitude(city);
 
-            Console.WriteLine();
-            Console.WriteLine();
+                var weatherAndAreaDetails = _weatherAppApi.GetWeatherAndAreaDetails(latitude, longitude);
+
+                if ((latitude == 0) && (longitude == 0))
+                {
+                    Console.WriteLine("No data found");
+                }
+                else
+                {
+                    Console.WriteLine($"Longitude : {latitude}");
+                    Console.WriteLine($"Longitude : {longitude}");
+                    Console.WriteLine($"Temperature : {weatherAndAreaDetails.Result.current_weather.temperature}");
+                    Console.WriteLine($"Wind speed : {weatherAndAreaDetails.Result.current_weather.windspeed}");
+                    Console.WriteLine($"Wind Direction : {weatherAndAreaDetails.Result.current_weather.winddirection}");
+                    Console.WriteLine($"Weather Code : {weatherAndAreaDetails.Result.current_weather.weathercode}");
+                    Console.WriteLine($"Time : {weatherAndAreaDetails.Result.current_weather.time}");
+                    //Console.WriteLine($"Temperature : {weatherAndAreaDetails.Result.current_weather.temperature}");
+                }
+
+                Console.WriteLine();
+                Console.WriteLine();
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex.ToString());
+            }
         }
 
        
