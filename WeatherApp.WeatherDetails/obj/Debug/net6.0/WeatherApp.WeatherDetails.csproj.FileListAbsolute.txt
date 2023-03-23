@@ -14,7 +14,6 @@ E:\WeatherAppCLI\WeatherApp\WeatherAppCommandLine\WeatherApp.WeatherDetails\obj\
 E:\WeatherAppCLI\WeatherApp\WeatherAppCommandLine\WeatherApp.WeatherDetails\obj\Debug\net6.0\WeatherApp.WeatherDetails.pdb
 E:\WeatherAppCLI\WeatherApp\WeatherAppCommandLine\WeatherApp.WeatherDetails\obj\Debug\net6.0\ref\WeatherApp.WeatherDetails.dll
 E:\WeatherAppCLI\WeatherApp\WeatherAppCommandLine\WeatherApp.WeatherDetails\bin\Debug\net6.0\WeatherApp.WeatherDetails.dll.config
-E:\WeatherAppCLI\WeatherAppCLI\WeatherApp.WeatherDetails\bin\Debug\net6.0\WeatherApp.WeatherDetails.dll.config
 E:\WeatherAppCLI\WeatherAppCLI\WeatherApp.WeatherDetails\bin\Debug\net6.0\WeatherApp.WeatherDetails.deps.json
 E:\WeatherAppCLI\WeatherAppCLI\WeatherApp.WeatherDetails\bin\Debug\net6.0\WeatherApp.WeatherDetails.dll
 E:\WeatherAppCLI\WeatherAppCLI\WeatherApp.WeatherDetails\bin\Debug\net6.0\WeatherApp.WeatherDetails.pdb

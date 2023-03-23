@@ -102,7 +102,6 @@ E:\WeatherAppCLI\WeatherAppCLI\WeatherAppCommandLine\bin\Debug\net6.0\WeatherAPP
 E:\WeatherAppCLI\WeatherAppCLI\WeatherAppCommandLine\bin\Debug\net6.0\WeatherApp.WeatherDetails.dll
 E:\WeatherAppCLI\WeatherAppCLI\WeatherAppCommandLine\bin\Debug\net6.0\WeatherApp.API.pdb
 E:\WeatherAppCLI\WeatherAppCLI\WeatherAppCommandLine\bin\Debug\net6.0\WeatherApp.WeatherDetails.pdb
-E:\WeatherAppCLI\WeatherAppCLI\WeatherAppCommandLine\bin\Debug\net6.0\WeatherApp.WeatherDetails.dll.config
 E:\WeatherAppCLI\WeatherAppCLI\WeatherAppCommandLine\bin\Debug\net6.0\WeatherAPP.Models.pdb
 E:\WeatherAppCLI\WeatherAppCLI\WeatherAppCommandLine\obj\Debug\net6.0\WeatherAppCommandLine.csproj.AssemblyReference.cache
 E:\WeatherAppCLI\WeatherAppCLI\WeatherAppCommandLine\obj\Debug\net6.0\WeatherAppCommandLine.GeneratedMSBuildEditorConfig.editorconfig
