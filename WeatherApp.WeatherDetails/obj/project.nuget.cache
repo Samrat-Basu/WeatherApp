@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lSwHPllWRHhe4JOc0LZcsEqohQuj47ou5RJ/pKimnuHg9UPCTlG1IPFVSlGy8EM9xGPXXv13qKtNPgSo/8VX2Q==",
+  "success": true,
+  "projectFilePath": "E:\\WeatherAppCLI\\WeatherAppCLI\\WeatherApp.WeatherDetails\\WeatherApp.WeatherDetails.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Samrat\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\Samrat\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
